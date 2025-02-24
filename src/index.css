@@ -1,0 +1,341 @@
+:root{
+  --main: #f90100;
+  --lightMain: #f94444;
+  --darkMain: #c11b1b;
+  --lightGrey: #747983;
+  --lighterGrey: #afafb1;
+  --grey: #565b64;
+  --darkGrey: #242931;
+  --acc: #f8d836;
+  --lightBlack: #262b33;
+  --black: #1d1e20;
+  --white: #f5f5f5;
+}
+
+*{
+  font-family: "Montserrat", serif;
+}
+
+body{
+  background-color: var(--black);
+}
+
+
+/*=============================================
+=            COLOR SYSTEM            =
+=============================================*/
+.c-bg-main{background-color: var(--main)}
+.c-bg-lightMain{background-color: var(--lightMain)}
+.c-bg-darkMain{background-color: var(--darkMain)}
+.c-bg-lighterGrey{background-color: var(--lighterGrey)}
+.c-bg-lightGrey{background-color: var(--lightGrey)}
+.c-bg-grey{background-color: var(--grey)}
+.c-bg-darkGrey{background-color: var(--darkGrey)}
+.c-bg-acc{background-color: var(--acc)}
+.c-bg-lightBlack{background-color: var(--lightBlack)}
+.c-bg-black{background-color: var(--black)}
+.c-bg-white{background-color: var(--white);}
+
+.c-text-main{color: var(--main)}
+.c-text-lightMain{color: var(--lightMain)}
+.c-text-darkMain{color: var(--darkMain)}
+.c-text-lighterGrey{color: var(--lighterGrey)}
+.c-text-lightGrey{color: var(--lightGrey)}
+.c-text-grey{color: var(--grey)}
+.c-text-darkGrey{color: var(--darkGrey)}
+.c-text-acc{color: var(--acc)}
+.c-text-lightBlack{color: var(--lightBlack)}
+.c-text-black{color: var(--black)}
+.c-text-white{color: var(--white);}
+
+
+
+/*=============================================
+=            TITLE SYSTEM            =
+=============================================*/
+.big-title{
+  font-weight: 700;
+  font-size: 24px !important;
+  line-height: 36px !important;
+}
+.small-title{
+  font-weight: 600;
+  font-size: 20px !important;
+  line-height: 28px !important;
+}
+.big-body{
+  font-weight: 500;
+  font-size: 18px !important;
+  line-height: 24px !important;
+}
+.regular-body{
+  font-weight: 400;
+  font-size: 16px !important;
+  line-height: 24px !important;
+}
+.small-body{
+  font-weight: 300;
+  font-size: 14px !important;
+  line-height: 22px !important;
+}
+.caption{
+  font-weight: 300;
+  font-size: 12px !important;
+  line-height: 16px !important;
+}
+
+/*=============================================
+=            BUTTONS           =
+=============================================*/
+
+.btn{
+  font-size: 16px !important;
+  line-height: 24px !important;
+}
+
+.btn-play{
+  background-color: var(--main);
+  font-weight: 500;
+  color: var(--white);
+  padding: 0.25rem 1.25rem;
+  border: none;
+  border-radius: 0.25rem;
+}
+.btn-play:hover{
+  background-color: var(--darkMain);
+  font-weight: 500;
+  color: var(--white);
+  padding: 0.25rem 1.25rem;
+  border: none;
+  border-radius: 0.25rem;
+}
+.btn-riproduci{
+  background-color: var(--lighterGrey);
+  font-weight: 500;
+  color: var(--white);
+  padding: 0.25rem 1.25rem;
+  border: none;
+  border-radius: 0.25rem;
+}
+.btn-riproduci:hover{
+  background-color: var(--lightGrey);
+  font-weight: 500;
+  color: var(--white);
+  padding: 0.25rem 1.25rem;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+.btn-info {
+  background-color: var(--lighterGrey);
+  font-weight: 500;
+  color: var(--white);
+  padding: 0.25rem 1.25rem;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+.bi:hover{
+  color: var(--lighterGrey);
+}
+
+.modal-img{
+  position: relative;
+}
+
+.button-close{
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+/*=============================================
+=            ACCOUNT PAGE           =
+=============================================*/
+.account-login-img, .account-login-img-2, .account-login-img-3, .account-login-img-4{
+    height: 120px;
+    width: 120px;
+}
+
+.account-login-img{
+  background-image: url(/src/assets/media/Account-img/account-eleven.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.account-login-img-2{
+  background-image: url(/src/assets/media/Account-img/account-mercoledi.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.account-login-img-3{
+  background-image: url(/src/assets/media/Account-img/account-squid-game.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.account-login-img-4{
+  background-image: url(/src/assets/media/Account-img/account-the-witcher.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.titolo-login{
+  font-weight: 500;
+  font-size: 12px !important;
+  line-height: 22px !important;
+  color: var(--white);
+}
+
+.nome-profilo{
+  font-weight: 500;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  color: var(--lightGrey);
+}
+
+
+/*=============================================
+=            HOME PAGE           =
+=============================================*/
+
+.top-ten{
+  height: 2rem;
+}
+
+/*----------  NAVBAR  ----------*/
+nav {
+  background: linear-gradient(rgba(0, 0, 0, 0.841) 20%, rgba(0, 0, 0, 0) 100%) !important;
+}
+
+.logo{
+  height: 32px;
+}
+
+.img-account-navbar{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.navbar-toggler-icon{
+  color: var(--white) !important;
+}
+
+.nav-link:hover, .nav-icons:hover{
+  color: var(--lightGrey);
+}
+
+/*----------  HEADER  ----------*/
+.header-vh{
+  height: 90vh;
+}
+
+.header-bg{
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.293) 2%, rgba(253, 17, 17, 0)100%), linear-gradient(0deg, rgba(0, 0, 0, 0.722) 0%, rgba(0, 0, 0, 0) 20%), url(/src/assets/media/Header-img/stranger-things.jpg);
+      background-size: cover;
+      background-position: bottom;
+      background-repeat: no-repeat;
+}
+
+.logo-Stranger-Things{
+  width: 70%;
+}
+
+
+/*----------  MAIN CONTENT  ----------*/
+.c-position{
+  position: absolute;
+  content: "";
+  bottom: -50px;
+}
+
+.c-card{
+  height: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.c-card:hover{
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+/*----------  REACT-SLICK  ----------*/
+.slick-prev, .slick-next{
+  scale: 1.3;
+  opacity: 0.2 !important;
+}
+
+
+/*=============================================
+=            MODALE           =
+=============================================*/
+.modal-img{
+  position: relative ;
+}
+
+.-logo{
+  position: absolute;
+  content: "";
+  bottom: 40px;
+  left: 40px;
+  width: 40%;
+}
+
+.modal-backdrop {
+  background-color: rgb(0, 0, 0);
+  transition: background-color 0.3s ease-in-out;
+}
+
+
+
+
+
+
+/*=============================================
+=     MEDIA QUERYS (da Mobile a Desktop          =
+=============================================*/
+
+@media screen and (min-width: 768px) {
+    .account-login-img,
+    .account-login-img-2,
+    .account-login-img-3,
+    .account-login-img-4 {
+      height: 200px;
+      width: 200px;
+    }
+
+    .big-body {
+      font-weight: 500;
+      font-size: 36px !important;
+      line-height: 24px !important;
+      margin-bottom: 3rem !important;
+    }
+
+    .nome-profilo {
+      font-weight: 500;
+      font-size: 18px !important;
+      line-height: 24px !important;
+      color: var(--lightGrey);
+    }
+
+}
+
+
+/*=============================================
+=     MEDIA QUERYS (da Desktop a Mobile)       =
+=============================================*/
+@media screen and (max-width: 768px){
+  nav {
+    background: linear-gradient(rgba(0, 0, 0, 0.627) 80%, rgba(0, 0, 0, 0) 100%) !important;
+  }
+
+  .header-bg{
+    background-position: center;
+  }
+}
